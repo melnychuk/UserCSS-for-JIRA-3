@@ -57,6 +57,10 @@ td.lazyOperation a {text-decoration:none;}
 #issue_header td[bgcolor='#f0f0f0'] b {font-size:14px;line-height:20px;}
 #issue_header h3 {color:#34404c !important;padding-bottom:15px;text-shadow:#fff 0 1px 0;}
 
+#issueContent table#issueDetailsTable[bgcolor='#bbbbbb'],
+#issueContent table.tt_outer {background:#dee4ea !important;}
+
+
 div#description-open table td[bgcolor='#bbbbbb'] {background:#dad0a1 !important;}
 div#description-open table td[bgcolor='#bbbbbb'] font {color:#40360a !important;}
 
