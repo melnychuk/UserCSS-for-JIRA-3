@@ -6,5 +6,5 @@ This project is about making an ugly web interface of JIRA3.x (a popular Bug Tra
 Something to keep in mind
 _________________________
 
-[*] I’m only testing the changes in Opera 11 and higher, so I can’t promise that it will not break in any other browsers, does not matter how awesome they are. Feel free to add support for those on your own :]
-[*] I’ll try to comment my code as much as possible, but sometimes I can be just too tired and lazy to do so. Please excuse me for that.
+* I’m only testing the changes in Opera 11 and higher, so I can’t promise that it will not break in any other browsers, does not matter how awesome they are. Feel free to add support for those on your own :]
+* I’ll try to comment my code as much as possible, but sometimes I can be just too tired and lazy to do so. Please excuse me for that.
