@@ -42,6 +42,10 @@ td.lazyOperation a {text-decoration:none;}
 #issueContent table td[bgcolor='#bbbbbb'] {background:#dee4ea !important;margin:0 10px;padding:7px 15px !important;}
 #issueContent table td[bgcolor='#bbbbbb'] font {color:#434d57 !important;}
 
+#issueContent div#details-open td {padding:5px 10px !important;}
+#issueContent .gridTabBox {background:#dee4ea !important;}
+#issueContent .gridTabBox td[bgcolor='#f0f0f0'] {background:#f6f6f6 !important;}
+
 /* navigation tabs on top of the comments section */
 #issueContent > table[align='center'] {padding-top:10px;}
 #issueContent > table[align='center'] > tbody > tr > td[width='1%'] {padding:5px 15px;}
