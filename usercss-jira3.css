@@ -42,9 +42,12 @@ td.lazyOperation a {text-decoration:none;}
 #issueContent table td[bgcolor='#bbbbbb'] {background:#dee4ea !important;margin:0 10px;padding:7px 15px !important;}
 #issueContent table td[bgcolor='#bbbbbb'] font {color:#434d57 !important;}
 
+/* navigation tabs on top of the comments section */
 #issueContent > table[align='center'] {padding-top:10px;}
 #issueContent > table[align='center'] > tbody > tr > td[width='1%'] {padding:5px 15px;}
 #issueContent > table[align='center'] > tbody > tr > td[width='1%'] a {color:#434d57 !important;text-decoration:none;}
+/* Sort Order tab on the right */
+#issueContent > table[align='center'] > tbody > tr > td[width='1%'][bgcolor='#e5e5e5'] {background:#dee4ea !important;color:rgba(0,0,0,.6) !important;}
 
 #issue_header td[bgcolor='#f0f0f0'] {background:#dee4ea !important;padding:5px 10px !important;}
 #issue_header td[bgcolor='#f0f0f0'] b {font-size:14px;line-height:20px;}
@@ -67,4 +70,5 @@ div.issuePanelContainer .actionContainer .action-body {color:#444;line-height:1.
 div.issuePanelContainer .actionContainer .action-links,
 div.issuePanelContainer .actionContainer .action-links-focused {background:transparent !important;margin:7px 10px 0;}
 
-span.subText .date {color:rgba(0,0,0,.3) !important;}
+/* comment date */
+span.subText .date {color:rgba(0,0,0,.35) !important;font-style:italic;}
