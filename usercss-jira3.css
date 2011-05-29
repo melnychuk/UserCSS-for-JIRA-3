@@ -72,3 +72,6 @@ div.issuePanelContainer .actionContainer .action-links-focused {background:trans
 
 /* comment date */
 span.subText .date {color:rgba(0,0,0,.35) !important;font-style:italic;}
+
+/* hiding the footer */
+.footer {display:none !important;}
