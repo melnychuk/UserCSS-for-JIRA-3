@@ -57,8 +57,14 @@ div#description-open table td[bgcolor='#bbbbbb'] font {color:#40360a !important;
 #description_full {background:#f7f5eb;padding:2em 1.5em !important;}
 
 div.issuePanelContainer {border:#dee4ea solid 3px !important;}
-div.issuePanelContainer .actionContainer {border-top:none !important;margin-bottom:5px !important;}
-div.issuePanelContainer .actionContainer .action-details {background:#f6f6f6 !important;border-top:#dee4ea 2px solid !important;border-bottom:#dee4ea 1px dotted !important;padding:10px 10px !important;}
+div.issuePanelContainer .actionContainer {border-top:none !important;margin-bottom:5px !important;padding:1px !important;}
+div.issuePanelContainer .actionContainer .action-details,
+div.issuePanelContainer .actionContainer .action-details-focused {background:#f6f6f6 !important;border-top:#dee4ea 2px solid !important;border-bottom:#dee4ea 1px dotted !important;padding:10px 10px !important;}
+div.issuePanelContainer .actionContainer .action-details-focused {background:#d5e9ed !important;border:none !important;}
 div.issuePanelContainer .actionContainer .action-details a {color:#434d57 !important;font-weight:bold;}
+div.issuePanelContainer .actionContainer .action-details-focused a {font-weight:bold;}
 div.issuePanelContainer .actionContainer .action-body {color:#444;line-height:1.4em;padding:10px 10px;}
-div.issuePanelContainer .actionContainer .action-links {background:transparent !important;margin:7px 10px 0;}
+div.issuePanelContainer .actionContainer .action-links,
+div.issuePanelContainer .actionContainer .action-links-focused {background:transparent !important;margin:7px 10px 0;}
+
+span.subText .date {color:rgba(0,0,0,.3) !important;}
