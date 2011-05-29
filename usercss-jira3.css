@@ -1,0 +1,64 @@
+/* @override */
+
+html > body {background:#fff !important;}
+
+a:link,
+a:visited {color:#0174a7 !important;}
+a:hover {color:#1096d5 !important;}
+
+#header-top {background:#fff !important;}
+
+#menu {height:30px;margin-top:1px;}
+#menu #quicksearch {line-height:30px;}
+#menu #quicksearch label {margin-right:3px;}
+#menu #quicksearch input {height:20px;border:#900 solid 1px;}
+
+#main-nav li {line-height:25px;margin:0 2px !important;}
+
+#menu,
+#main-nav li a:link,
+#main-nav li a:visited {background:#cc0f16;color:#fff !important;padding:5px 13px !important;}
+
+#main-nav li a.selected,
+#main-nav li a:link.selected,
+#main-nav li a:visited.selected {background-color:#fff !important;color:#cc0f16 !important;}
+
+#main-nav li a:hover {background:#800 !important;}
+
+td[width='200'] {background:#fff !important;line-height:1.7em !important;}
+td[bgcolor='dddddd'] {background:#dee4ea !important;color:#434d57 !important;display:block;margin:15px 0 10px;overflow:hidden;padding:7px 10px;}
+img[src="/images/bluepixel.gif"],
+img[src="/images/bluepixel.gif"] + br,
+img[src="/images/icons/bullet_creme.gif"] {display:none;}
+
+img[src="/images/bluepixel.gif"] + br + table {padding-left:7px !important;}
+
+td.lazyOperation {font-size:11px;padding-bottom:6px;}
+td.lazyOperation a {text-decoration:none;}
+
+#issueContent {border-left:#ccc 1px solid;margin-left:15px;padding:3px 15px 30px !important;}
+
+#issueContent table[bgcolor='#bbbbbb'] {background:#fff !important;}
+#issueContent table td[bgcolor='#bbbbbb'] {background:#dee4ea !important;margin:0 10px;padding:7px 15px !important;}
+#issueContent table td[bgcolor='#bbbbbb'] font {color:#434d57 !important;}
+
+#issueContent > table[align='center'] {padding-top:10px;}
+#issueContent > table[align='center'] > tbody > tr > td[width='1%'] {padding:5px 15px;}
+#issueContent > table[align='center'] > tbody > tr > td[width='1%'] a {color:#434d57 !important;text-decoration:none;}
+
+#issue_header td[bgcolor='#f0f0f0'] {background:#dee4ea !important;padding:5px 10px !important;}
+#issue_header td[bgcolor='#f0f0f0'] b {font-size:14px;line-height:20px;}
+#issue_header h3 {color:#34404c !important;padding-bottom:15px;}
+
+div#description-open table td[bgcolor='#bbbbbb'] {background:#dad0a1 !important;}
+div#description-open table td[bgcolor='#bbbbbb'] font {color:#40360a !important;}
+
+#descriptionArea {border:#dad0a1 solid 3px !important;font-size:13px !important;padding:1px !important;line-height:1.4em;}
+#description_full {background:#f7f5eb;padding:2em 1.5em !important;}
+
+div.issuePanelContainer {border:#dee4ea solid 3px !important;}
+div.issuePanelContainer .actionContainer {border-top:none !important;margin-bottom:5px !important;}
+div.issuePanelContainer .actionContainer .action-details {background:#f6f6f6 !important;border-top:#dee4ea 2px solid !important;border-bottom:#dee4ea 1px dotted !important;padding:10px 10px !important;}
+div.issuePanelContainer .actionContainer .action-details a {color:#434d57 !important;font-weight:bold;}
+div.issuePanelContainer .actionContainer .action-body {color:#444;line-height:1.4em;padding:10px 10px;}
+div.issuePanelContainer .actionContainer .action-links {background:transparent !important;margin:7px 10px 0;}
