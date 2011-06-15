@@ -22,7 +22,6 @@ a:hover {color:#1096d5 !important;}
 #main-nav li a.selected,
 #main-nav li a:link.selected,
 #main-nav li a:visited.selected {background-color:#fff !important;color:#cc0f16 !important;}
-
 #main-nav li a:hover {background:#800 !important;}
 
 td[width='200'] {background:#fff !important;line-height:1.7em !important;}
@@ -83,3 +82,11 @@ span.subText .date {color:rgba(0,0,0,.35) !important;font-style:italic;}
 
 /* hiding the footer */
 .footer {display:none !important;}
+
+/* replacing the ugly images */
+img[alt='P1'],
+img[alt='Task']
+{width:0;height:16px;background:transparent none 0 0 no-repeat;padding-right:16px;}
+
+img[alt='P1'] {background-image:url(images/priority_blocker.png);}
+img[alt='Task'] {background-image:url(images/task.png);}
