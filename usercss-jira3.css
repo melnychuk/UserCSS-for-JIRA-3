@@ -74,6 +74,7 @@ div.issuePanelContainer .actionContainer .action-details-focused {background:#d5
 div.issuePanelContainer .actionContainer .action-details a {color:#434d57 !important;font-weight:bold;}
 div.issuePanelContainer .actionContainer .action-details-focused a {font-weight:bold;}
 div.issuePanelContainer .actionContainer .action-body {color:#444;line-height:1.4em;padding:10px 10px;}
+div.issuePanelContainer .actionContainer .action-body *:not([href]) {color:#444 !important;}
 div.issuePanelContainer .actionContainer .action-links,
 div.issuePanelContainer .actionContainer .action-links-focused {background:transparent !important;margin:7px 10px 0;}
 
