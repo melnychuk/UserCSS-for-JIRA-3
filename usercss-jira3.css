@@ -6,7 +6,13 @@ a:link,
 a:visited {color:#0174a7 !important;}
 a:hover {color:#1096d5 !important;}
 
+ul#account-options {padding:3px 6px !important;}
+
 #header-top {background:#fff !important;}
+#header-top li a {text-decoration:underline !important;}
+#header-top li:first-child a {font-weight:bold;}
+#header-top li a span {background:url(images/dropdown.png) 100% 50% no-repeat !important;}
+#header-top li a:hover {background-color:transparent !important;}
 
 #menu {height:30px;margin-top:1px;}
 #menu #quicksearch {line-height:30px;}
