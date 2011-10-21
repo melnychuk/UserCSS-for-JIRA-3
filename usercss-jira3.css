@@ -52,9 +52,13 @@ td.lazyOperation a {text-decoration:none;}
 #issueContent .gridTabBox {background:#dee4ea !important;}
 #issueContent .gridTabBox td[bgcolor='#f0f0f0'] {background:#f6f6f6 !important;}
 
-/* navigation tabs on top of the comments section */
+/* navigation tabs on top of the sections */
 #issueContent > table[align='center'] {padding-top:10px;}
-#issueContent > table[align='center'] > tbody > tr > td[width='1%'] {padding:5px 15px;}
+#issueContent > table[align='center'] > tbody > tr > td[width='1%'],
+#issueContent > table td.selectedTabCell, 
+#issueContent > table td.unselectedTabCell {padding:5px 15px;}
+#issueContent > table td.selectedTabCell {background:#DEE4EA !important;}
+#issueContent > table td.selectedTabCell .selectedTabFont {color:#34404C !important;}
 #issueContent > table[align='center'] > tbody > tr > td[width='1%'] a {color:#434d57 !important;text-decoration:none;}
 /* Sort Order tab on the right */
 #issueContent > table[align='center'] > tbody > tr > td[width='1%'][bgcolor='#e5e5e5'] {background:#dee4ea !important;color:rgba(0,0,0,.6) !important;}
