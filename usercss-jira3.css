@@ -48,6 +48,7 @@ td.lazyOperation a {text-decoration:none;}
 #issueContent table td[bgcolor='#bbbbbb'] font {color:#434d57 !important;}
 
 #issueContent div#details-open td {padding:5px 10px !important;}
+#issueContent div#details-open #abcd_build_list {padding:0 !important;}
 #issueContent .gridTabBox {background:#dee4ea !important;}
 #issueContent .gridTabBox td[bgcolor='#f0f0f0'] {background:#f6f6f6 !important;}
 
@@ -72,8 +73,8 @@ div#description-open table td[bgcolor='#bbbbbb'] font {color:#40360a !important;
 #descriptionArea {border:#dad0a1 solid 3px !important;font-size:13px !important;padding:1px !important;line-height:1.4em;}
 #description_full {background:#f7f5eb;padding:2em 1.5em !important;}
 
-div.issuePanelContainer {border:#dee4ea solid 3px !important;}
-div.issuePanelContainer .actionContainer {border-top:none !important;margin-bottom:5px !important;padding:1px !important;}
+div.issuePanelContainer {border:#dee4ea solid 3px !important;padding:1px !important;}
+div.issuePanelContainer .actionContainer {border-top:none !important;margin-bottom:5px !important;}
 div.issuePanelContainer .actionContainer .action-details,
 div.issuePanelContainer .actionContainer .action-details-focused {background:#f6f6f6 !important;border-top:#dee4ea 2px solid !important;border-bottom:#dee4ea 1px dotted !important;padding:10px 10px !important;}
 div.issuePanelContainer .actionContainer .action-details-focused {background:#d5e9ed !important;border:none !important;}
@@ -83,6 +84,8 @@ div.issuePanelContainer .actionContainer .action-body {color:#444;line-height:1.
 div.issuePanelContainer .actionContainer .action-body *:not([href]) {color:#444 !important;}
 div.issuePanelContainer .actionContainer .action-links,
 div.issuePanelContainer .actionContainer .action-links-focused {background:transparent !important;margin:7px 10px 0;}
+
+div.issuePanelContainer > div:first-child .action-details {border-top:none !important;}
 
 /* comment date */
 span.subText .date {color:rgba(0,0,0,.35) !important;font-style:italic;}
