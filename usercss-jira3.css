@@ -94,6 +94,8 @@ div.issuePanelContainer > div:first-child .action-details {border-top:none !impo
 /* comment date */
 span.subText .date {color:rgba(0,0,0,.35) !important;font-style:italic;}
 
+#commentDiv {margin-top:2em;}
+
 /* hiding the footer */
 .footer {display:none !important;}
 
