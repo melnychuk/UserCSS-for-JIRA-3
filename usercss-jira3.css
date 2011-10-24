@@ -63,8 +63,10 @@ td.lazyOperation a {text-decoration:none;}
 /* Sort Order tab on the right */
 #issueContent > table[align='center'] > tbody > tr > td[width='1%'][bgcolor='#e5e5e5'] {background:#dee4ea !important;color:rgba(0,0,0,.6) !important;}
 
-#issue_header td[bgcolor='#f0f0f0'] {background:#dee4ea !important;padding:5px 10px !important;}
+#issue_header td[bgcolor='#f0f0f0'] {background:#fff;padding:0 0 10px;}
+#issue_header td[bgcolor='#f0f0f0'] table td {background:#dee4ea !important;padding:5px 10px 10px !important;}
 #issue_header td[bgcolor='#f0f0f0'] b {font-size:14px;line-height:20px;}
+#issue_header > tbody > tr > td {padding-left:10px;}
 #issue_header h3 {color:#34404c !important;padding-bottom:15px;text-shadow:#fff 0 1px 0;}
 
 #issueContent table#issueDetailsTable[bgcolor='#bbbbbb'],
