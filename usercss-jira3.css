@@ -69,6 +69,12 @@ td.lazyOperation a {text-decoration:none;}
 
 #issueContent table#issueDetailsTable[bgcolor='#bbbbbb'],
 #issueContent table.tt_outer {background:#dee4ea !important;}
+#issueContent table#issueDetailsTable #file_attachments,
+#issueContent table#issueDetailsTable #file_attachments .attachmentList {border-spacing:1px !important;padding:0;}
+#issueContent table#issueDetailsTable #file_attachments .attachmentList {width:100%;}
+#issueContent table#issueDetailsTable #file_attachments .attachmentList th {background:#F0F0F0 !important;}
+#issueContent table#issueDetailsTable #file_attachments .attachmentList th,
+#issueContent table#issueDetailsTable #file_attachments .attachmentList td {padding:2px 5px;}
 
 
 div#description-open table td[bgcolor='#bbbbbb'] {background:#dad0a1 !important;}
