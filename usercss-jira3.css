@@ -59,7 +59,8 @@ td.lazyOperation a {text-decoration:none;}
 #issueContent > table td.unselectedTabCell {padding:5px 15px;}
 #issueContent > table td.selectedTabCell {background:#DEE4EA !important;}
 #issueContent > table td.selectedTabCell .selectedTabFont {color:#34404C !important;}
-#issueContent > table[align='center'] > tbody > tr > td[width='1%'] a {color:#434d57 !important;text-decoration:none;}
+#issueContent > table[align='center'] > tbody > tr > td[width='1%'] a,
+#issueContent > table td.unselectedTabCell a {color:#434d57 !important;text-decoration:none;}
 /* Sort Order tab on the right */
 #issueContent > table[align='center'] > tbody > tr > td[width='1%'][bgcolor='#e5e5e5'] {background:#dee4ea !important;color:rgba(0,0,0,.6) !important;}
 
