@@ -108,6 +108,7 @@ div.issuePanelContainer > div:first-child .action-details {border-top:none !impo
 
 /* comment date */
 span.subText .date {color:rgba(0,0,0,.35) !important;font-style:italic;}
+span a.smallgrey {display:block;margin-top:5px;text-decoration:none;}
 
 /* Add Comment button */
 a#comment_issue,
