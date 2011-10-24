@@ -69,12 +69,19 @@ td.lazyOperation a {text-decoration:none;}
 
 #issueContent table#issueDetailsTable[bgcolor='#bbbbbb'],
 #issueContent table.tt_outer {background:#dee4ea !important;}
+#issueContent table#issueDetailsTable > tbody > tr > td,
+#issueContent table.tt_outer > tbody > tr > td,
+#issueContent table#issueDetailsTable #issueLinksVisible > table > tbody > tr > td {padding:5px 10px;}
 #issueContent table#issueDetailsTable #file_attachments,
 #issueContent table#issueDetailsTable #file_attachments .attachmentList {border-spacing:1px !important;padding:0;}
 #issueContent table#issueDetailsTable #file_attachments .attachmentList {width:100%;}
 #issueContent table#issueDetailsTable #file_attachments .attachmentList th {background:#F0F0F0 !important;}
 #issueContent table#issueDetailsTable #file_attachments .attachmentList th,
-#issueContent table#issueDetailsTable #file_attachments .attachmentList td {padding:2px 5px;}
+#issueContent table#issueDetailsTable #file_attachments .attachmentList td {padding:5px 9px;}
+#issueContent table#issueDetailsTable #file_attachments .attachmentList tr:hover td {background:#f7f5eb !important;}
+
+#issueContent table#issueDetailsTable #outwardLinks_table > tbody > tr > td,
+#issueContent table#issueDetailsTable #inwardLinks_table > tbody > tr > td {line-height:18px;padding:1px;}
 
 
 div#description-open table td[bgcolor='#bbbbbb'] {background:#dad0a1 !important;}
