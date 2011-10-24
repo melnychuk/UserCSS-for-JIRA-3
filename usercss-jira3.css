@@ -110,7 +110,7 @@ div.issuePanelContainer > div:first-child .action-details {border-top:none !impo
 #issueContent #issuetable {padding:10px 13px 15px;}
 #issueContent #issuetable .rowAlternate {background:#fff !important;}
 #issueContent #issuetable .stsequence > div {background:#fff !important;color:#999;font-weight:bold;padding-right:5px;}
-#issueContent #issuetable > tbody > tr > td {border-top:1px dotted #dee4ea;padding:5px 2px;vertical-align:middle;}
+#issueContent #issuetable > tbody > tr > td {border-bottom:1px dotted #dee4ea;padding:5px 2px;vertical-align:middle;}
 
 
 /* comment date */
