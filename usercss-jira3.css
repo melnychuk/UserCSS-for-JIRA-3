@@ -86,7 +86,7 @@ td.lazyOperation a {text-decoration:none;}
 #issueContent table#issueDetailsTable #outwardLinks_table > tbody > tr > td,
 #issueContent table#issueDetailsTable #inwardLinks_table > tbody > tr > td {line-height:18px;padding:1px;}
 
-div#description-open table td[bgcolor='#bbbbbb'] {background:#dad0a1 !important;}
+div#description-open table td[bgcolor='#bbbbbb'] {background:#dad0a1 !important;padding:5px 15px;}
 div#description-open table td[bgcolor='#bbbbbb'] font {color:#40360a !important;}
 
 #descriptionArea {border:#dad0a1 solid 3px !important;font-size:13px !important;padding:1px !important;line-height:1.4em;}
