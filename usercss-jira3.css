@@ -118,7 +118,7 @@ span.subText .date {color:rgba(0,0,0,.35) !important;font-style:italic;}
 span a.smallgrey {display:block;margin-top:5px;text-decoration:none;}
 
 /* Add Comment button */
-a#comment_issue,
+#issueContent a#comment_issue,
 a#stqc_show {background-color:#0174a7 !important;border:none !important;border-radius:5px;color:#fff !important;font-weight:bold;margin-right:8px;padding:6px 15px !important;text-decoration:none;-o-transition-property:background-color;-o-transition-duration:300ms;}
 a#comment_issue:hover,
 a#stqc_show:hover {background:#1096d5 !important;}
