@@ -41,6 +41,8 @@ img[src="/images/bluepixel.gif"] + br + table {padding-left:7px !important;}
 td.lazyOperation {font-size:11px;padding-bottom:6px;}
 td.lazyOperation a {text-decoration:none;}
 
+td.fieldLabelArea {background:transparent !important;}
+
 #issueContent {border-left:#ccc 1px solid;margin-left:15px;padding:3px 15px 30px !important;}
 
 #issueContent table[bgcolor='#bbbbbb'] {background:#fff !important;}
@@ -68,7 +70,8 @@ td.lazyOperation a {text-decoration:none;}
 #issue_header td[bgcolor='#f0f0f0'] table td {background:#dee4ea !important;padding:5px 10px 10px !important;}
 #issue_header td[bgcolor='#f0f0f0'] b {font-size:14px;line-height:20px;}
 #issue_header > tbody > tr > td {padding-left:10px;}
-#issue_header h3 {color:#34404c !important;padding-bottom:15px;text-shadow:#fff 0 1px 0;}
+#issue_header h3,
+div#commentDiv h3 {color:#34404c !important;padding-bottom:15px;text-shadow:#fff 0 1px 0;}
 
 #issueContent table#issueDetailsTable[bgcolor='#bbbbbb'],
 #issueContent table.tt_outer {background:#dee4ea !important;}
@@ -123,7 +126,19 @@ a#stqc_show {background-color:#0174a7 !important;border:none !important;border-r
 a#comment_issue:hover,
 a#stqc_show:hover {background:#1096d5 !important;}
 
-#commentDiv {margin-top:2em;}
+div#commentDiv {margin-top:2em;max-width:800px;position:relative;left:-4px;}
+div#commentDiv table.jiraform {background:#f6f6f6 !important;border:#dee4ea 3px solid !important;}
+div#commentDiv table.jiraform td {padding:5px 15px !important;}
+div#commentDiv td.jiraformheader {background:transparent !important;padding-top:15px !important;}
+div#commentDiv td.jiraformheader h3 {padding-bottom:0;line-height:25px;}
+div#commentDiv td.jiraformheader span {line-height:25px;}
+div#commentDiv td.jiraformfooter {height:40px;vertical-align:top !important;}
+div#commentDiv td.jiraformfooter input {padding:2px 15px;}
+
+div#commentDiv #commentFieldArea td.fieldLabelArea,
+div#commentDiv #commentLevelFieldArea td.fieldLabelArea {display:none;}
+div#commentDiv #commentFieldArea td.fieldValueArea {width:100% !important;}
+div#commentDiv textarea {width:100% !important;}
 
 /* hiding the footer */
 .footer {display:none !important;}
