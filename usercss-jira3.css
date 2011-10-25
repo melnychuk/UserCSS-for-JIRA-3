@@ -50,9 +50,9 @@ td.fieldLabelArea {background:transparent !important;}
 #issueContent table td[bgcolor='#bbbbbb'] font {color:#434d57 !important;}
 
 #issueContent div#details-open td {padding:5px 10px !important;}
+#issueContent div#details-open td[bgcolor='#f0f0f0'] {background:;}
 #issueContent div#details-open #abcd_build_list {padding:0 !important;}
 #issueContent .gridTabBox {background:#dee4ea !important;}
-#issueContent .gridTabBox td[bgcolor='#f0f0f0'] {background:#f6f6f6 !important;}
 
 /* navigation tabs on top of the sections */
 #issueContent > table[align='center'] {padding-top:10px;}
