@@ -135,3 +135,5 @@ img[alt='Task']
 
 img[alt='P1'] {background-image:url(images/priority_blocker.png);}
 img[alt='Task'] {background-image:url(images/task.png);}
+img[src='/images/icons/help_blue.gif'] {content: url('images/properties.png');}
+img[src='/images/icons/print.gif'] {content: url('images/print.png');}
