@@ -96,7 +96,7 @@ div#description-open table td[bgcolor='#bbbbbb'] font {color:#40360a !important;
 #description_full {background:#f7f5eb;padding:2em 1.5em !important;}
 
 div.issuePanelContainer,
-#issueContent > table[cellpadding='0'][cellspacing='1'][bgcolor='#bbbbbb'] {border:#dee4ea solid 3px !important;padding:1px !important;}
+#issueContent > table[cellpadding='0'][cellspacing='1'][bgcolor='#bbbbbb'] {border:#dee4ea solid 3px !important;padding:10px 10px !important;}
 div.issuePanelContainer .actionContainer {border-top:none !important;margin-bottom:5px !important;}
 div.issuePanelContainer .actionContainer .action-details,
 div.issuePanelContainer .actionContainer .action-details-focused {background:#f6f6f6 !important;border-top:#dee4ea 2px solid !important;border-bottom:#dee4ea 1px dotted !important;padding:10px 10px !important;}
@@ -110,10 +110,12 @@ div.issuePanelContainer .actionContainer .action-links-focused {background:trans
 
 div.issuePanelContainer > div:first-child .action-details {border-top:none !important;}
 
-#issueContent #issuetable {padding:10px 13px 15px;}
+#issueContent #issuetable {padding:0;}
 #issueContent #issuetable .rowAlternate {background:#fff !important;}
 #issueContent #issuetable .stsequence > div {background:#fff !important;color:#999;font-weight:bold;padding-right:5px;}
 #issueContent #issuetable > tbody > tr > td {border-bottom:1px dotted #dee4ea;padding:5px 2px;vertical-align:middle;}
+#issueContent #issuetable .stworkflow {color:#999999 !important;}
+#issueContent #issuetable .stworkflow a {text-decoration:none;}
 
 
 /* comment date */
