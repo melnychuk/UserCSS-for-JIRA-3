@@ -86,6 +86,7 @@ div#commentDiv h3 {color:#34404c !important;padding-bottom:15px;text-shadow:#fff
 #issueContent table#issueDetailsTable #file_attachments .attachmentList td {padding:5px 9px;}
 #issueContent table#issueDetailsTable #file_attachments .attachmentList tr:hover td {background:#f7f5eb !important;}
 
+#issueContent table#issueDetailsTable #issueImageAttachmentsVisible td {padding:.7em 0;}
 #issueContent table#issueDetailsTable #issueImageAttachmentsVisible font {color:#666666;}
 
 #issueContent table#issueDetailsTable #outwardLinks_table > tbody > tr > td,
