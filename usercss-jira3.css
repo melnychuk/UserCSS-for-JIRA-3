@@ -71,7 +71,8 @@ td.fieldLabelArea {background:transparent !important;}
 #issueContent div#details-open td {padding:5px 10px !important;}
 #issueContent div#details-open td[bgcolor='#f0f0f0'] {background:;}
 #issueContent div#details-open #abcd_build_list {padding:0 !important;}
-#issueContent .gridTabBox {background:#dee4ea !important;}
+#issueContent .gridTabBox,
+#issueContent .gridTabBoxHidden {background:#dee4ea !important;}
 
 /* navigation tabs on top of the sections */
 #issueContent > table[align='center'] {padding-top:10px;}
