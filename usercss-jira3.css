@@ -31,6 +31,7 @@ table.tableBorder table tr:hover td {background:#f2f2f2;}
 table.tableBorder table th,
 table.tableBorder table td {padding:5px;}
 table.tableBorder table td[width="100%"] a {color:#333 !important;}
+table.tableBorder table td[width="100%"] a:hover {color:#111 !important;text-decoration:underline !important;}
 table.tableBorder .rowAlternate {background:transparent !important;}
 table.tableBorder .rowNormal td,
 table.tableBorder .rowAlternate td {border-top:1px solid #f0f0f0;}
