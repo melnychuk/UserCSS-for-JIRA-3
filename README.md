@@ -1,12 +1,12 @@
 What is this all about?
 =======================
 
-This project is about making an ugly web interface of JIRA3.x (a popular Bug Tracking System) look somewhat more pleasing. I’m doing it in my spare time, whenever I feel like digging through horrible HTML code and then trying to apply some CSS to it in order to make it look better. That said, it does not happen very often, so please don’t expect constant updates here. Yet still, all contribution is welcome.
+This project is about making an ugly web interface of JIRA3.x (a popular Bug Tracking System) look somewhat more pleasing. I’m doing it in my spare time, whenever I feel like digging through horrible HTML code and then trying to apply some CSS to it in order to make it look better. That said, it does not happen very often, so please don’t expect constant updates here. Yet still, any contribution is welcome.
 
 Installation
 ============
 
-Download the archive and unzip in some directory on your hard drive. Then in Opera, go to the BTS page, right click on an empty area of the page and choose Edit Site Preferences. Then go to the Display tab and click on the Choose button at the bottom. Navigate to the .css file you saved previously and click OK. Refresh the page and you're done.
+Click on the grey ZIP button higher up on the page, save the file to your hard drive and then extract its contents somewhere you won't forget. Then in Opera, go to any BTS page, right click on an empty area of the page and choose Edit Site Preferences. In the dialog, go to the Display tab and click the "Choose" button at the bottom. Navigate to the "usercss-jira3.css" file in the directory you extracted the downloaded archive to and click OK. Refresh the BTS page and you're done.
 
 Something to keep in mind:
 
