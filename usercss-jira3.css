@@ -2,8 +2,8 @@
 
 html > body {background:#fff !important;}
 
-a:link,
-a:visited {color:#0174a7 !important;}
+a:link {color:#0174a7 !important;}
+a:visited {color:#144e66 !important;}
 a:hover {color:#1096d5 !important;}
 
 ul#account-options {padding:3px 6px !important;}
