@@ -11,7 +11,7 @@ ul#account-options {padding:3px 6px !important;}
 #header-top {background:#fff !important;}
 #header-top li a {text-decoration:underline !important;}
 #header-top li:first-child a {font-weight:bold;}
-#header-top li a span {background:url(../images/dropdown.png) 100% 50% no-repeat !important;}
+#header-top li a span {background:url(images/dropdown.png) 100% 50% no-repeat !important;}
 #header-top li a:hover {background-color:transparent !important;}
 
 
@@ -38,7 +38,7 @@ table.tableBorder .rowAlternate td {border-top:1px solid #f0f0f0;}
 
 
 #menu {height:30px;margin-top:1px;}
-#menu #quicksearch {background:transparent;line-height:30px;padding-right:2px;}
+#menu #quicksearch {line-height:30px;}
 #menu #quicksearch label {margin-right:3px;}
 #menu #quicksearch input {height:20px;border:#900 solid 1px;}
 
@@ -46,7 +46,7 @@ table.tableBorder .rowAlternate td {border-top:1px solid #f0f0f0;}
 
 #menu,
 #main-nav li a:link,
-#main-nav li a:visited {background:#bf0d13;color:#fff !important;padding:5px 13px !important;}
+#main-nav li a:visited {background:#cc0f16;color:#fff !important;padding:5px 13px !important;}
 
 #main-nav li a.selected,
 #main-nav li a:link.selected,
@@ -174,14 +174,12 @@ div#commentDiv textarea {width:100% !important;}
 .footer {display:none !important;}
 
 /* replacing the ugly images */
-/*
 img[alt='P1'],
 img[alt='Task']
 {width:0;height:16px;background:transparent none 0 0 no-repeat;padding-right:16px;}
 
-img[alt='P1'] {background-image:url('../images/priority_blocker.png');}
-img[alt='Task'] {background-image:url('../images/task.png');}
-img[src='/images/icons/help_blue.gif'] {content: url('../images/properties.png');}
-img[src='/images/icons/print.gif'] {content: url('../images/print.png');}
-img[src='/images/icons/fullscreen.gif'] {content: url('../images/preview.png');}
-*/
+img[alt='P1'] {background-image:url(images/priority_blocker.png);}
+img[alt='Task'] {background-image:url(images/task.png);}
+img[src='/images/icons/help_blue.gif'] {content: url('images/properties.png');}
+img[src='/images/icons/print.gif'] {content: url('images/print.png');}
+img[src='/images/icons/fullscreen.gif'] {content: url('images/preview.png');}

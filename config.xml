@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<widget xmlns="http://www.w3.org/ns/widgets">
-    <name>JIRA.up: BTS facelift</name>
-    <author href="http://twitter.com/#!/melnychuk">Oleg Melnychuk, Daniel Davis</author>
-    <description xml:lang="en">A facelift for the butt-ugly JIRA3 Bug Tracking System.</description>
-    <icon src="icon_64x64.png"/>
-</widget>
