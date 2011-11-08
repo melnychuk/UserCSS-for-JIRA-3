@@ -1,6 +1,3 @@
-
-/* No need to edit anything in this file */
-
 function loadInjectedCSS(event, path) {
     // Try to get the contents of the stylesheet.
     var req = new XMLHttpRequest();
@@ -9,7 +6,7 @@ function loadInjectedCSS(event, path) {
     
     // Error check for reading the stylesheet.
     if (!req.responseText) {
-        opera.postError('EXTENSION ERROR: Can\'t read ' + path);
+        opera.postError("EXTENSION ERROR: Can't read " + path);
         return;
     }
     

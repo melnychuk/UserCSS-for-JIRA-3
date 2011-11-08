@@ -2,16 +2,18 @@
 // @include https://bugs.opera.com/*
 // ==/UserScript==
 
-window.addEventListener('load', function() {
-    
+
+window.opera.addEventListener('BeforeCSS', function(userJSEvent){
+
     // Specify the path to the stylesheet here:
-    var path = 'styles/style.css';
+    var stylesheet = 'styles/style.css';
+    var images = 'styles/images.css';
     
     /* No need to change anything below this line */
     
     // Error check for the stylesheet filename.
-    if (!path) {
-        opera.postError('EXTENSION ERROR: No CSS file has been specified');
+    if (!stylesheet) {
+        opera.postError("EXTENSION ERROR: No CSS file has been specified");
         return;
     }
     
@@ -19,7 +21,7 @@ window.addEventListener('load', function() {
         var message = event.data;
         
         // Check this is the correct message and path from the background script.
-        if (message.topic === 'LoadedInjectedCSS' && message.data.path === path) {
+        if (message.topic === 'LoadedInjectedCSS' && message.data.path === stylesheet) {
             // Remove the message listener so it doesn't get called again.
             opera.extension.removeEventListener('message', onCSS, false);
             
@@ -28,7 +30,7 @@ window.addEventListener('load', function() {
             // Create a <style> element and add it to the <head> element of the current page.
             // Insert the contents of the stylesheet into the <style> element.
             var style = document.createElement('style');
-            style.setAttribute('type', 'text/css');            
+            style.setAttribute('type', 'text/css');
             style.appendChild(document.createTextNode(css));
             document.getElementsByTagName('head')[0].appendChild(style);
         }
@@ -40,6 +42,6 @@ window.addEventListener('load', function() {
     // Send the stylesheet path to the background script to get the CSS.
     opera.extension.postMessage({
         topic: 'LoadInjectedCSS',
-        data: path
+        data: stylesheet
     });
 }, false);

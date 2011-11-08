@@ -1,5 +1,3 @@
-/* @override */
-
 html > body {background:#fff !important;}
 
 a:link {color:#0174a7 !important;}
@@ -174,12 +172,11 @@ div#commentDiv textarea {width:100% !important;}
 .footer {display:none !important;}
 
 /* replacing the ugly images */
+
 /*
 img[alt='P1'],
-img[alt='Task']
-{width:0;height:16px;background:transparent none 0 0 no-repeat;padding-right:16px;}
+img[alt='Task'] {width:0;height:16px;background:transparent none 0 0 no-repeat;padding-right:16px;}
 
-img[alt='P1'] {background-image:url('../images/priority_blocker.png');}
 img[alt='Task'] {background-image:url('../images/task.png');}
 img[src='/images/icons/help_blue.gif'] {content: url('../images/properties.png');}
 img[src='/images/icons/print.gif'] {content: url('../images/print.png');}
