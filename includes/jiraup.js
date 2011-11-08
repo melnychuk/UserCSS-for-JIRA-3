@@ -7,7 +7,6 @@ window.opera.addEventListener('BeforeCSS', function(userJSEvent){
 
     // Specify the path to the stylesheet here:
     var stylesheet = 'styles/style.css';
-    var images = 'styles/images.css';
     
     /* No need to change anything below this line */
     
