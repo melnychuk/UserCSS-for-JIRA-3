@@ -171,8 +171,3 @@ div#commentDiv textarea {width:100% !important;}
 
 /* hiding the footer */
 .footer {display:none !important;}
-
-/* replacing the ugly images */
-img[alt='P1'],
-img[alt='Task']
-{width:0;height:16px;background:transparent none 0 0 no-repeat;padding-right:16px;}
