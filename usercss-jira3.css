@@ -11,7 +11,6 @@ ul#account-options {padding:3px 6px !important;}
 #header-top {background:#fff !important;}
 #header-top li a {text-decoration:underline !important;}
 #header-top li:first-child a {font-weight:bold;}
-#header-top li a span {background:url(images/dropdown.png) 100% 50% no-repeat !important;}
 #header-top li a:hover {background-color:transparent !important;}
 
 
@@ -159,11 +158,11 @@ a#stqc_show:hover {background:#1096d5 !important;}
 div#commentDiv {margin-top:2em;max-width:800px;position:relative;left:-4px;}
 div#commentDiv table.jiraform {background:#f6f6f6 !important;border:#dee4ea 3px solid !important;}
 div#commentDiv table.jiraform td {padding:5px 15px !important;}
-div#commentDiv td.jiraformheader {background:transparent !important;padding-top:15px !important;}
-div#commentDiv td.jiraformheader h3 {padding-bottom:0;line-height:25px;}
-div#commentDiv td.jiraformheader span {line-height:25px;}
-div#commentDiv td.jiraformfooter {height:40px;vertical-align:top !important;}
-div#commentDiv td.jiraformfooter input {padding:2px 15px;}
+div#commentDiv .jiraformheader {background:transparent !important;padding-top:15px !important;}
+div#commentDiv .jiraformheader h3 {padding-bottom:0;line-height:25px;}
+div#commentDiv .jiraformheader span {line-height:25px;}
+div#commentDiv .jiraformfooter {height:40px;vertical-align:top !important;}
+div#commentDiv .jiraformfooter input {padding:2px 15px;}
 
 div#commentDiv #commentFieldArea td.fieldLabelArea,
 div#commentDiv #commentLevelFieldArea td.fieldLabelArea {display:none;}
@@ -177,9 +176,3 @@ div#commentDiv textarea {width:100% !important;}
 img[alt='P1'],
 img[alt='Task']
 {width:0;height:16px;background:transparent none 0 0 no-repeat;padding-right:16px;}
-
-img[alt='P1'] {background-image:url(images/priority_blocker.png);}
-img[alt='Task'] {background-image:url(images/task.png);}
-img[src='/images/icons/help_blue.gif'] {content: url('images/properties.png');}
-img[src='/images/icons/print.gif'] {content: url('images/print.png');}
-img[src='/images/icons/fullscreen.gif'] {content: url('images/preview.png');}
